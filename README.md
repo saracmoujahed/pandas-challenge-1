@@ -56,12 +56,6 @@ summary_df = (
     .sort_values(by='qty', ascending=True)
 )
 
-# Rename columns to append "(millions)" for money columns
-money_columns = ['shipping_price', 'line_cost', 'line_profit']
-summary_df.rename(
-    columns={col: f"{col} (millions)" for col in money_columns}, inplace=True
-)
-
 # Display the summary
 print(summary_df)
 ```
