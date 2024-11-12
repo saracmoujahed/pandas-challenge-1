@@ -71,7 +71,7 @@ print(summary_df)
 The output will be a summary DataFrame showing totals for each client, with money-related columns labeled in millions:
 
 ```
-   Client ID  UNITS  Shipping (millions)  Total Revenue (millions)  Total Profit (millions)
+   Client ID  Units  Shipping (millions)  Total Revenue (millions)  Total Profit (millions)
 0      24741  100                       5.0                  3.0                    2.0
 1      33615  200                       7.0                  4.0                    3.0
 2      38378  150                       6.0                  3.5                    2.5
