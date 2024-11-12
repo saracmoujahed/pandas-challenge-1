@@ -7,7 +7,6 @@ This Python program performs data manipulation tasks on a dataset containing cli
 - **Filter Data by Client IDs**: Filter the dataset to focus on specific client IDs (top clients).
 - **Aggregate Sales Metrics**: Calculate totals for `Units Purchased`, `Shipping Price`, `Revenue`, and `Profit` for each client.
 - **Sort Data**: Optionally sort the summary data by specific metrics such as `Quantity` or `Revenue`.
-- **Money-related Column Renaming**: Append "(millions)" to money-related columns for easier interpretation and reporting.
 
 ## Requirements
 
